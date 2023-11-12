@@ -10,9 +10,9 @@ public class KatoExec_Chapter17 {
 		
 		//setGivenNameメソッドを実行
 		
-		taro.setGivenName("太郎");
-		ichiro.setGivenName("一郎");
-		hanako.setGivenName("花子");
+		taro.setGivenName();
+		ichiro.setGivenName();
+		hanako.setGivenName();
 		
 		//exeIntroduceメソッドを実行
 		taro.execIntroduce();

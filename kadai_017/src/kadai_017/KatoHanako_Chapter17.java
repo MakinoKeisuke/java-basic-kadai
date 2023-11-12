@@ -3,8 +3,8 @@ package kadai_017;
 public class KatoHanako_Chapter17 extends Kato_Chapter17 {
 	
 	//セッター
-	public void setGivenName(String givenName) {
-		this.givenName = givenName;
+	public void setGivenName() {
+		this.givenName = "花子";
 	}
 	@Override
 	void eachIntroduce() {
