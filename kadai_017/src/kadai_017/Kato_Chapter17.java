@@ -5,10 +5,7 @@ abstract public class Kato_Chapter17 {
 	public String givenName = "";
 	public String address = "東京都中野区〇×";
 	
-	//セッター
-	public void setGivenName(String givenName) {
-		this.givenName = givenName;
-	}
+	
 	//共通紹介
 	public void commonlntroduce() {
 		System.out.println("名前は" + this.familyName + this.givenName +"です");
@@ -21,4 +18,6 @@ abstract public class Kato_Chapter17 {
 		commonlntroduce();
 		eachIntroduce();
 	}
+	 
+	
 }
